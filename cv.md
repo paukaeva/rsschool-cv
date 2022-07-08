@@ -77,7 +77,9 @@ const ListOfSkills = () => {
   )
 }
 ```
-***
+
+---
+
 ## Courses
 #### HTML Academy
 ![HTML Academy progress](img/html_academy.jpeg)
