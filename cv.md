@@ -4,11 +4,11 @@
 ## Contact information:
 *Want to know more or just chat?
 You are welcome!*
-Phone: +995 591 949 856
-E-mail: annpaukaeva@gmail.com
-Telegram: [@APaukaeva](https://t.me/APaukaeva)
-LinkedIn: [Anna Paukaeva](https://www.linkedin.com/in/paukaeva/)
-Discord: Anna Paukaeva (@paukaeva)
+- Phone: +995 591 949 856
+- E-mail: annpaukaeva@gmail.com
+- Telegram: [@APaukaeva](https://t.me/APaukaeva)
+- LinkedIn: [Anna Paukaeva](https://www.linkedin.com/in/paukaeva/)
+- Discord: Anna Paukaeva (@paukaeva)
 
 ---
 
