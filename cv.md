@@ -26,7 +26,6 @@ Ready to implement excellent projects with enthusiastic people.
 ## Portfolio
 - [Cake Buro](https://cakeburo.ru/) - Semantic HTML markup and CSS styling
 ![CakeBuro header Screenshot](img/CakeBuro.jpeg)
-
 - [Skillary](https://github.com/paukaeva/Skillary-UI-Kit) - Developed UI Kit components for a mobile app on React Native
 ![UI-Kit Screenshot](img/skillary.png)
 ---
