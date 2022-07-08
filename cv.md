@@ -32,7 +32,7 @@ Ready to implement excellent projects with enthusiastic people.
 ![UI-Kit Screenshot](img/skillary.png)
 ---
 ## Code Example
-```
+```ReactNative 
 const MOCKUP_DATA = [
   { title: 'Физическое развитие', points: 300, type: SKILL_TYPES.PHYSICAL },
   { title: 'Интеллект', points: 450, type: SKILL_TYPES.INTELLIGENCE },
