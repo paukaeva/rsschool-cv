@@ -9,12 +9,16 @@ E-mail: annpaukaeva@gmail.com
 Telegram: [@APaukaeva](https://t.me/APaukaeva)
 LinkedIn: [Anna Paukaeva](https://www.linkedin.com/in/paukaeva/)
 Discord: Anna Paukaeva (@paukaeva)
-***
+
+---
+
 ## About me 
 Hi, I'm Anna – Junior Frontend Developer from Saint Petersburg. I'm interested in web and mobile development and everything connected with it.
 I'm studying at course "JS/FRONT-END" in [RS School](https://rs.school/). 
 Ready to implement excellent projects with enthusiastic people.
-***
+
+---
+
 ## Skills
 - HTML/CSS
 - JS/React (Basic)
@@ -30,7 +34,9 @@ Ready to implement excellent projects with enthusiastic people.
 ![CakeBuro header Screenshot](img/CakeBuro.jpeg)
 - [Skillary](https://github.com/paukaeva/Skillary-UI-Kit) - Developed UI Kit components for a mobile app on React Native
 ![UI-Kit Screenshot](img/skillary.png)
+
 ---
+
 ## Code Example
 ```ReactNative 
 const MOCKUP_DATA = [
@@ -83,7 +89,9 @@ const ListOfSkills = () => {
 ## Courses
 #### HTML Academy
 ![HTML Academy progress](img/html_academy.jpeg)
-***
+
+---
+
 ## English
 B1 (Intermediate)
 
