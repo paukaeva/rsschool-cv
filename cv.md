@@ -38,50 +38,50 @@ Ready to implement excellent projects with enthusiastic people.
 ---
 
 ## Code Example
-```ReactNative 
-const MOCKUP_DATA = [
-  { title: 'Физическое развитие', points: 300, type: SKILL_TYPES.PHYSICAL },
-  { title: 'Интеллект', points: 450, type: SKILL_TYPES.INTELLIGENCE },
-  { title: 'Окружающий мир', points: 500, type: SKILL_TYPES.WORLD },
-  { title: 'Творчество', points: 650, type: SKILL_TYPES.CREATION },
-  { title: 'Лидерство', points: 250, type: SKILL_TYPES.LEADERSHIP },
-  { title: 'Социальный успех', points: 300, type: SKILL_TYPES.SOCIAL },
-  { title: 'Практические навыки', points: 450, type: SKILL_TYPES.PRACTICAL },
-]
+```
+    const MOCKUP_DATA = [
+      { title: 'Физическое развитие', points: 300, type: SKILL_TYPES.PHYSICAL },
+      { title: 'Интеллект', points: 450, type: SKILL_TYPES.INTELLIGENCE },
+      { title: 'Окружающий мир', points: 500, type: SKILL_TYPES.WORLD },
+      { title: 'Творчество', points: 650, type: SKILL_TYPES.CREATION },
+      { title: 'Лидерство', points: 250, type: SKILL_TYPES.LEADERSHIP },
+      { title: 'Социальный успех', points: 300, type: SKILL_TYPES.SOCIAL },
+      { title: 'Практические навыки', points: 450, type: SKILL_TYPES.PRACTICAL },
+    ]
 
-const ListOfSkills = () => {
-  return (
-    <FlatList
-      data={MOCKUP_DATA}
-      ItemSeparatorComponent={() => <View style={styles.separator} /> }
-      renderItem={({ item }) => (
-        <View style={styles.itemContainer}>
-          <SmallMedalIcon />
-          <View style={styles.titleContainer}>
-            <Text style={styles.titleText}>{item.title}</Text>
-          </View>
-          <View style={styles.progressContainer}>
-            <View style={[
-              styles.progressOpacity,
-              { backgroundColor: getColorByType(item.type)},
-            ]}/>
-            <View style={[
-              styles.progressValue,
-              {
-                width: DeviceLayout.getSize((190 / 100) * (item.points / 10)),
-                backgroundColor: getColorByType(item.type),
-              },
-            ]}
-            >
-              <Text style={styles.pointsText}>{item.points}</Text>
+    const ListOfSkills = () => {
+      return (
+        <FlatList
+          data={MOCKUP_DATA}
+          ItemSeparatorComponent={() => <View style={styles.separator} /> }
+          renderItem={({ item }) => (
+            <View style={styles.itemContainer}>
+              <SmallMedalIcon />
+              <View style={styles.titleContainer}>
+                <Text style={styles.titleText}>{item.title}</Text>
+              </View>
+              <View style={styles.progressContainer}>
+                <View style={[
+                  styles.progressOpacity,
+                  { backgroundColor: getColorByType(item.type)},
+                ]}/>
+                <View style={[
+                  styles.progressValue,
+                  {
+                    width: DeviceLayout.getSize((190 / 100) * (item.points / 10)),
+                    backgroundColor: getColorByType(item.type),
+                  },
+                ]}
+                >
+                  <Text style={styles.pointsText}>{item.points}</Text>
+                </View>
+              </View>
+              <BigMedalIcon />
             </View>
-          </View>
-          <BigMedalIcon />
-        </View>
-      )}
-    />
-  )
-}
+          )}
+        />
+      )
+    }
 ```
 
 ---
