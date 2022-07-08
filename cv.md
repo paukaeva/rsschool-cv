@@ -22,7 +22,9 @@ Ready to implement excellent projects with enthusiastic people.
 - VSCode
 - Figma
 - Jira
-***
+
+---
+
 ## Portfolio
 - [Cake Buro](https://cakeburo.ru/) - Semantic HTML markup and CSS styling
 ![CakeBuro header Screenshot](img/CakeBuro.jpeg)
@@ -77,7 +79,7 @@ const ListOfSkills = () => {
 ```
 ***
 ## Courses
-HTML Academy
+#### HTML Academy
 ![HTML Academy progress](img/html_academy.jpeg)
 ***
 ## English
