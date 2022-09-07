@@ -1,5 +1,6 @@
 # Anna Paukaeva
 *Junior Frontend Developer*
+![Nice to meet you](img/me.jpg)
 
 ## Contact information:
 *Want to know more or just chat?
